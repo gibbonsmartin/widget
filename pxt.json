@@ -1,0 +1,24 @@
+{
+    "name": "widget",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "bluetooth": "*",
+        "servo": "*",
+        "devices": "*"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "python-only"
+}
